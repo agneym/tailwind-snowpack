@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-snowpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "snowpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Agney Menon <agney@outlook.in>",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^1.7.0"
+  }
+}
