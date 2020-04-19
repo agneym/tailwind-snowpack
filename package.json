@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "npx servor --reload",
+    "build": "npx snowpack --optimize --clean",
     "postinstall": "snowpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +13,13 @@
   "author": "Agney Menon <agney@outlook.in>",
   "license": "ISC",
   "devDependencies": {
+    "rollup-plugin-postcss": "^2.8.2",
+    "servor": "^3.2.0",
     "snowpack": "^1.7.0"
+  },
+  "dependencies": {
+    "htm": "^3.0.4",
+    "preact": "^10.4.0",
+    "tailwindcss": "^1.2.0"
   }
 }
